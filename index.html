@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Roldan's|Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--Fontawesome CDN Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Portfolio.</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="https://www.facebook.com/junroldan.marandi"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.twitter.com/@MarandiRoldan25"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/roldan.marandi"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <img class="image1" src="Images/red.jpg">
+      <div class="home-content">
+        <div class="text">
+
+          <div class="text-one">Hello,</div>
+          <div class="text-two">I'm Roldan Marandi Jr.</div>
+          <div class="text-three">Web Designer/Web Developer</div>
+          <div class="text-four">From Philippines</div>
+        </div>
+        <div class="button">
+          <button onclick="openChat()">Hire Me</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="Images/yellow.jpg" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">Designing Is My Passion</div>
+            <p>
+              Development is not just a profession for me, it's a genuine passion that fuels my creativity and drive. I am constantly exploring new technologies, experimenting with cutting-edge tools, and pushing the boundaries of what is possible in web development.
+              I am deeply passionate about the art of coding and web development. The ability to transform a concept into a fully functional and intuitive website brings me an incredible sense of fulfillment and motivates me to continually refine my skills.
+            </p>
+            <div class="button">
+              <button onclick="downloadCV()">Download CV</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Skills Reflect to My Knowledge</div>
+            <p>As a web developer, I am proficient in HTML, CSS, JavaScript and PHP, and I have hands-on experience with modern frameworks like React and Angular. I am well-versed in creating intuitive user interfaces, optimizing website performance, and ensuring cross-browser compatibility</p>
+            <div class="experience">
+              <div class="num">2</div>
+              <div class="exp">
+                Years Of <br />
+                Experience
+              </div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">HTML</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box">
+              <div class="topic">CSS</div>
+              <div class="per">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">JavaScript</div>
+              <div class="per">70%</div>
+            </div>
+            <div class="box">
+              <div class="topic">PHP</div>
+              <div class="per">70%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Services Section Start -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>My Services</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Web Development</div>
+            <p>As a skilled web developer, I specialize in creating dynamic and responsive websites tailored to meet your specific needs. Using a combination of cutting-edge technologies, industry best practices, and a keen eye for design, I craft websites that engage users and deliver a seamless browsing experience</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="topic">Graphic Design</div>
+            <p>With a passion for visual storytelling and a keen eye for aesthetics, I offer comprehensive graphic design services to help businesses and individuals communicate their brand identity effectively. From captivating logos to stunning marketing collateral, I specialize in creating visually compelling designs that leave a lasting impression</p>
+          </div>
+          
+          <div class="box">
+            <div class="icon">
+              <i class="fab fa-android"></i>
+            </div>
+            <div class="topic">Icon Design</div>
+            <p>Using industry-standard design tools, I create icons that are visually appealing, easily recognizable, and aligned with your brand's visual identity. I pay special attention to color choices, shapes, and overall visual hierarchy to ensure that each icon communicates its purpose clearly and effectively</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic">Have Any Project?</div>
+          <p>Let's work together to achieve your goals and bring your vision to life. Contact me to discuss how my expertise and experience can add value to your project.</p>
+          <div class="button">
+            <button onclick="openChat()">Let's Chat</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="text">
+        <span>Created By <a href="#">Roldan</a> | &#169; 2023 All Rights Reserved</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
